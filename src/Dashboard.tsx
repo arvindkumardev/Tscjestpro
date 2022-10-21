@@ -15,17 +15,6 @@ type itemType = {
     body: string;
 }
 
-type GetPostResponse = {
-    data: Post[];
-  };
-
-   type Post = {
-    userId: number;
-    id: number;
-    title: any;
-    body: any;
-  };
-
 const Dashboard = () => {
     const [list, setList] = useState<any>([]);
     const navigation = useNavigation();

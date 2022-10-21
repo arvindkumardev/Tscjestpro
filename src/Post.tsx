@@ -4,7 +4,7 @@ import { useRoute } from '@react-navigation/native';
 import constants from "./locales/constants";
 
 const Post = () => {
-    const route = useRoute<any>();
+    const route = useRoute();
 
     useEffect(()=> {
        const {Item} = route.params;

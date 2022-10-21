@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test render snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 10,
+      "marginTop": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 16,
+        "marginTop": 5,
+      }
+    }
+  >
+    ID:
+     
+    0
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 16,
+        "marginTop": 5,
+      }
+    }
+  >
+    Title:
+     
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 16,
+        "marginTop": 5,
+      }
+    }
+  >
+    Description:
+     
+  </Text>
+</View>
+`;

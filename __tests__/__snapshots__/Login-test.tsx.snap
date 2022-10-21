@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test render snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "green",
+          "fontSize": 40,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Login
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Email"
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#000",
+          "borderRadius": 5,
+          "borderWidth": 3,
+          "height": 70,
+          "marginTop": 50,
+          "paddingLeft": 10,
+          "width": "90%",
+        }
+      }
+      value=""
+    />
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Password"
+      secureTextEntry={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#000",
+          "borderRadius": 5,
+          "borderWidth": 3,
+          "height": 70,
+          "marginTop": 20,
+          "paddingLeft": 10,
+          "width": "90%",
+        }
+      }
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 14,
+            "marginTop": 10,
+          }
+        }
+      >
+        Don't have an account ?
+         
+      </Text>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "green",
+              "fontSize": 14,
+              "marginTop": 10,
+            }
+          }
+        >
+          Register Here
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "green",
+          "borderRadius": 5,
+          "height": 70,
+          "justifyContent": "center",
+          "marginTop": 80,
+          "opacity": 1,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 22,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Login
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

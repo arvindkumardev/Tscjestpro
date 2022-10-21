@@ -18,7 +18,7 @@ const Login = () => {
     const [email, setEmail] = useState<any>("");
     const [password, setPassword] = useState<any>("");
     const [list, setList] = useState<any>();
-    const navigation = useNavigation<any>();
+    const navigation = useNavigation();
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/todos/1')
