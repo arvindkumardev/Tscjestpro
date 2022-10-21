@@ -10,8 +10,8 @@ const Post = () => {
        const {Item} = route.params;
     }, [])
     return(
-       <View style={{marginHorizontal: 10, marginTop: 10}}> 
-           <Text style={style.text}>{constants.Id} {route.params.Item.id}</Text>
+       <View style={{marginHorizontal: 10, marginTop: 10}}>  
+           <Text style={style.text}>{constants.Id} {route.params.Item.id}</Text>  
            <Text style={style.text}>{constants.Title} {route.params.Item.title}</Text>
            <Text style={style.text}>{constants.Description} {route.params.Item.body}</Text>
        </View>
