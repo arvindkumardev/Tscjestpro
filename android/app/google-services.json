@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803745058428",
+    "project_id": "tscjestpro",
+    "storage_bucket": "tscjestpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803745058428:android:6ec89ed25fe8a1263e83f9",
+        "android_client_info": {
+          "package_name": "com.tscjestpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803745058428-rg8s1hpavh0gpc1fcot2g4ml3ari1mrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgNt6qNI1kMnj0hQPPrFwGJatSN9xBFCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803745058428-rg8s1hpavh0gpc1fcot2g4ml3ari1mrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
